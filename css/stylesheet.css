@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    width: 1000px;
+    height: 650px;
+    display: flex;
+    background-color: #eee;
+
+}
+
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+.mainmenu>ul>li:hover {
+    background-color: rgba(250, 136, 155, 0.596);
+}
+
+
+
+
+header {
+    width: 200px;
+    height: 650px;
+    background-color: pink;
+}
+
+
+.logo {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.mainmenu {
+    width: 200px;
+    height: 550px;
+}
+
+.mainmenu>ul {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.mainmenu>ul>li {
+    padding: 10px;
+}
+
+.main {
+    width: 800px;
+    height: 550px;
+    background-color: white;
+}
+
+.imgslide {
+    width: 800px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    float: right;
+}
+
+.contents {
+    width: 800px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contents>div {
+    width: 15%;
+    height: 90%;
+}
+
+.contents>.banner,
+.direct {
+    background-color: white;
+    border: solid 1px #000;
+    margin: 10px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner>a {
+    background-color: pink;
+    margin: 10px;
+    padding: 10px;
+}
+
+.direct>a {
+    background-color: pink;
+    margin: 10px;
+    padding: 10px;
+}
+
+.notice>a {
+    background-color: pink;
+}
+
+.notice>ul {
+    font-size: 15px;
+    border: solid 1px #000;
+    padding: 10px;
+}
+
+.notice>ul>li {
+    margin: 10px;
+}
+
+.notice>ul :nth-child(even) {
+    background-color: rgb(255, 192, 203);
+}
+
+.notice li:hover {
+    background-color: peachpuff;
+}
+
+.contents>div:nth-of-type(3) {
+    width: 55%;
+}
+
+.footer {
+    width: 800px;
+    height: 100px;
+    background-color: pink;
+    display: flex;
+}
+
+.footerlogo {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.copyright {
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.familysite {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
